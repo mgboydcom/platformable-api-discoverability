@@ -1,0 +1,7 @@
+baseURL = "https://catalogue.projectsbyif.com/"
+languageCode = "en-uk"
+title = "Research Project: Government API Discoverability"
+[params]
+  twitterText = " from the data patterns catalogue curated by @projectsbyif #patternsbyif"
+  twitterHandle = "projectsbyif"
+enableGitInfo = true
