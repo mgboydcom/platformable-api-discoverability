@@ -35,12 +35,16 @@ $('.category-nav a, .global-category-nav .toggle-view').click(function(e) {
       $('.category-view').show();
       $('.expand-all').show()
       break;
-    case 'view-most-recent':
-      $('.most-recent-view').show();
+    case 'view-resources':
+      $('.resources-view').show();
       $('.expand-all').hide()
       break;
     case 'view-alphabetically':
       $('.alphabetical-view').show();
+      $('.expand-all').hide()
+      break;
+    case 'view-about':
+      $('.about-view').show();
       $('.expand-all').hide()
       break;
     default:
@@ -49,7 +53,7 @@ $('.category-nav a, .global-category-nav .toggle-view').click(function(e) {
       $('.expand-all').show()
       break
   }
-  $('html, body').animate({ scrollTop: 0 }, 500)
+ 
 })
 
 /* Pattern category lists on homepage */

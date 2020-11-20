@@ -72,7 +72,7 @@ hr.hover {
 
 .toggle-menu {
   font-weight: 700;
-  color: rgb(36, 34, 73);
+  color: #7D7ABC;
 }
 
 .nav-bg {
@@ -135,7 +135,8 @@ nav.page, nav.patterns {
 
 nav.patterns .made-by,
 body.error .made-by {
-  color: #242249;
+  color: #7D7ABC;
+  /*#242249;*/
 }
 
 nav img {
@@ -185,7 +186,8 @@ nav .how-to p {
 
 nav .title,
 nav .made-by:hover {
-  color: #EC392A;
+  color: #7D7ABC;
+  /*#EC392A;*/
 }
 
 .page-nav {
@@ -304,7 +306,8 @@ nav .made-by:hover {
 /* Footer */
 
 footer {
-  background-color: #242249;
+  background-color: #1B014C;
+  /*#242249*/;
   color: white;
   bottom: 0;
   left: 0;
@@ -324,7 +327,8 @@ footer div.cell {
 }
 
 footer h2 {
-  color: #EC392A;
+  color: #FFD23F;
+  /*#EC392A;*/
   font-size: 1.1em;
   line-height: 30px;
   letter-spacing: -0.2px;
@@ -402,7 +406,8 @@ footer .contribute a {
 
 footer .get-in-touch a:hover,
 footer .contribute a:hover {
-  color: #EC392A;
+  color: #FFD23F;
+  /*#EC392A;*/
 }
 
 footer ul {

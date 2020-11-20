@@ -1,8 +1,9 @@
 /* Intro */
 .header-background {
-  animation-name: colourChange;
+  background-color: #1B014C;
+  /*animation-name: colourChange;
   animation-duration: 30s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;*/
 }
 
 @keyframes colourChange {
@@ -36,6 +37,7 @@ header.page {
 }
 
 .homepage-intro {
+  color: #fff;
   text-align: center;
   min-height: 25rem;
   display: flex;
@@ -101,8 +103,9 @@ header.page {
 }
 
 .category-nav .view-by-category.active,
-.category-nav .view-most-recent.active,
-.category-nav .view-alphabetically.active {
+.category-nav .view-resources.active,
+.category-nav .view-alphabetically.active,
+.category-nav .view-about.active {
   background-color: white;
   border-top: 1px solid white;
   border-right: 1px solid white;
@@ -111,8 +114,9 @@ header.page {
 }
 
 .category-nav .view-by-category:hover,
-.category-nav .view-most-recent:hover,
-.category-nav .view-alphabetically:hover {
+.category-nav .view-resources:hover,
+.category-nav .view-alphabetically:hover,
+.category-nav .view-about:hover {
   background-color: rgba(255, 255, 255, 0.8);
   border-top: 1px solid white;
   border-right: 1px solid white;
@@ -121,14 +125,16 @@ header.page {
 }
 
 .category-nav .view-by-category.active:hover,
-.category-nav .view-most-recent.active:hover,
-.category-nav .view-alphabetically.active:hover {
+.category-nav .view-resources.active:hover,
+.category-nav .view-alphabetically.active:hover,
+.category-nav .view-about.active:hover {
   background-color: white;
 }
 
 .category-nav .view-by-category,
-.category-nav .view-most-recent,
-.category-nav .view-alphabetically {
+.category-nav .view-resources,
+.category-nav .view-alphabetically,
+.category-nav .view-about {
   text-transform: uppercase;
   color: white;
 }
@@ -176,18 +182,21 @@ header.page {
 /* Homepage sections */
 
 .category-view,
-.most-recent-view,
-.alphabetical-view {
+.resources-view,
+.alphabetical-view,
+.about-view {
   background-color: white;
 }
 
-.most-recent-view,
-.alphabetical-view {
+.resources-view,
+.alphabetical-view,
+.about-view {
   padding-bottom: 2.5rem;
 }
 
-.most-recent-view,
-.alphabetical-view {
+.resources-view,
+.alphabetical-view,
+.about-view {
   display: none;
 }
 
@@ -372,54 +381,44 @@ header.page {
 }
 
 .pattern-card.api-design:hover {
-  box-shadow: 0px 0px 30px 12px rgba(150,225,170, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(255,210,63, 0.25);
+  /*rgb(140,235,200);
+  (255,210,63) */
 }
 
 .pattern-card.api-publication:hover {
-  box-shadow: 0px 0px 30px 12px rgba(135,215,235, 0.25)
+  box-shadow: 0px 0px 30px 12px rgba(239,118,122,0.25)
 }
 
 .pattern-card.ecosystem-facilitation:hover {
-  box-shadow: 0px 0px 30px 12px rgba(186,222,125, 0.25);
+  
+  box-shadow: 0px 0px 30px 12px rgba(35,240,199, 0.25);
 }
 
 .pattern-card.automated-tooling:hover {
-  box-shadow: 0px 0px 30px 12px rgba(255,215,95, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(125,122,188, 0.25);
 }
-/*
-.pattern-card.understanding-automated-decisions:hover {
-  box-shadow: 0px 0px 30px 12px rgba(255,145,105, 0.25);
-}
-
-.pattern-card.doing-security-checks:hover {
-  box-shadow: 0px 0px 10px 10px rgba(250,160,170, 0.2);
-}
-*/
 
 .pattern-card.api-design .pattern-card-image{
-  background-color: rgb(140,235,200);
+  background-color: #FFD23F;
+  /*rgb(140,235,200);*/
 }
 
 .pattern-card.api-publication .pattern-card-image {
-  background-color: rgb(135,215,235);
+  background-color: #EF767A;
+  /* rgb(135,215,235) */
 }
 
 .pattern-card.ecosystem-facilitation .pattern-card-image {
-  background-color: rgb(186,222,125);
+  background-color: #23F0C7;
+  /* rgb(186,222,125); */
 }
 
 .pattern-card.automated-tooling .pattern-card-image {
-  background-color: rgb(255,215,95);
-}
-/*
-.pattern-card.understanding-automated-decisions .pattern-card-image {
-  background-color: rgb(255,145,105);
+  background-color: #7D7ABC;
+  /* rgb(255,215,95); */
 }
 
-.pattern-card.doing-security-checks .pattern-card-image {
-  background-color: rgb(250,160,170);
-}
-*/
 /* Media queries */
 
 @media (min-width: 40em) {

@@ -432,57 +432,61 @@ display: inline-block;
 .pattern-image-div.api-design,
 .related-patterns-image.api-design,
 .pattern-heading-category.api-design {
-  background-color: rgb(140,235,200);
+  background-color: #FFD23F;
+  /*rgb(140,235,200);*/
 }
 
 .related-patterns li.api-design:hover {
-  box-shadow: 0px 0px 30px 12px rgba(150,225,170, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(255,210,63, 0.25);
 }
 
 .examples-title a.api-design:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(140,235,200);
+  box-shadow: inset 0 -0.2em 0 rgb(255,210,63);
 }
 
 .pattern-image-div.api-publication,
 .related-patterns-image.api-publication,
 .pattern-heading-category.api-publication {
-  background-color: rgb(135,215,235);
+  background-color: #EF767A;
+  /*rgb(135,215,235);*/
 }
 
 .related-patterns li.api-publication:hover {
-  box-shadow: 0px 0px 30px 12px rgba(135,215,235, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(239,118,122, 0.25);
 }
 
 .examples-title a.api-publication:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(135,215,235);
+  box-shadow: inset 0 -0.2em 0 rgb(239,118,122);
 }
 
 .pattern-image-div.ecosystem-facilitation,
 .related-patterns-image.ecosystem-facilitation,
 .pattern-heading-category.ecosystem-facilitation {
-  background-color: rgb(186,222,125);
+  background-color: #23F0C7;
+  /*rgb(186,222,125);*/
 }
 
 .related-patterns li.ecosystem-facilitation:hover {
-  box-shadow: 0px 0px 30px 12px rgba(186,222,125, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(35,240,199, 0.25);
 }
 
 .examples-title a.ecosystem-facilitation:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(186,222,125);
+  box-shadow: inset 0 -0.2em 0 rgba(35,240,199);
 }
 
 .pattern-image-div.automated-tooling,
 .related-patterns-image.automated-tooling,
 .pattern-heading-category.automated-tooling {
-  background-color: rgb(255,215,95);
+  background-color: #7D7ABC;
+  /*rgb(255,215,95);*/
 }
 
 .related-patterns li.automated-tooling:hover {
-  box-shadow: 0px 0px 30px 12px rgba(255,215,95, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(125,122,188,0.25);
 }
 
 .examples-title a.automated-tooling:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(255,215,95);
+  box-shadow: inset 0 -0.2em 0 rgba(125,122,188);
 }
 /*
 .pattern-image-div.understanding-automated-decisions,
