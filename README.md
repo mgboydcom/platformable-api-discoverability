@@ -1,10 +1,10 @@
-# Data Patterns ​Catalogue
+# API Discoverability Catalogue
 
-An evolving collection of design patterns for sharing data. Maintained by [IF](https://projectsbyif.com/).
+A catalogue describing the 20 API discoverability strategies i have been documenting, based on the open source repo collection of data sharing design patterns by [IF](https://projectsbyif.com/).
 
 ## How to contribute
 
-You can contribute to the catalogue on GitHub by creating an issue or submitting a pull request. The catalogue website runs on [Hugo](https://gohugo.io/).
+You can contribute to this catalogue on GitHub by creating an issue or submitting a pull request. The catalogue website runs on [Hugo](https://gohugo.io/).
 
 ## Installation
 
@@ -83,26 +83,13 @@ The *front matter* of the Markdown file (the bit at the top between the three da
 
 The body of the Markdown file (the bit underneath the three dashes) is a short description of the design pattern.
 
-## Creating and editing categories
-
-We've created several categories that patterns can belong to. Right now, these are:
-
-* Signing in to a service
-* Giving and removing consent
-* Giving access to data
-* Getting access to data
-* Understanding automated decisions
-* Doing security checks
-
-Categories are defined in `content/categories/_index.md`. To create a new category or edit an existing one, simply edit this file.
-
 ## Images
 
 Please include examples of where you've seen this pattern in use. We'll use these as reference for creating an illustration for a new pattern.
 
 ## Feedback
 
-Get in touch with us on [Twitter @projectsbyif](https://twitter.com/projectsbyif) or [email hello@projectsbyif.com](mailto:hello@projectsbyif.com).
+Get in touch with us on [Twitter @mgboydcom](https://twitter.com/mgboydcom) or [email me](mailto:mark@platformable.com).
 
 ## Licence
 
